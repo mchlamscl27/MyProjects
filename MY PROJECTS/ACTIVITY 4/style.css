@@ -1,0 +1,19 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border: 2px solid black;
+
+
+
+}
+input{
+    font-size: medium;
+    padding-top: 3px;
+}
+label{
+    font-size: medium;
+    text-transform: uppercase;
+}
