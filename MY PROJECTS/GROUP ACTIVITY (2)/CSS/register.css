@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+    background-color: #f0f0f0;
+}
+
+fieldset {
+    margin:0 auto;
+    padding: 40px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 150%;
+    max-width: 600px;
+    margin-top: 60px;
+  
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="username"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+   
+    font-weight: bold;
+   
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.register-link {
+    margin-top: 3px;
+    left: 50%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+#logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
